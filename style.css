@@ -1,0 +1,57 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(255, 255, 255);
+}
+
+.h-full-view {
+    height: 100vh;
+}
+.max-w {
+    max-width: 1400px;
+}
+
+.px {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.flex {
+    display: flex;
+}
+.align-items-center {
+    align-items: center;
+}
+.justify-content-conter {
+    justify-content: center;
+}
+
+.display-1 {
+    font-size: 2rem;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.display-highlighted {
+    color: crimson;
+}
+.display-block {
+    display: block;
+}
+
+@media screen and (min-width: 640px) and (max-width: 959px) {
+    .display-1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .display-1 {
+        font-size: 4.75rem;
+    }
+}
